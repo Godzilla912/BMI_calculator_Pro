@@ -1,0 +1,59 @@
+name: bmi_calculator
+description: "A new Flutter project."
+
+publish_to: 'none'
+version: 1.0.1+2
+
+environment:
+  sdk: ^3.5.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  get: ^4.6.6
+  get_storage: ^2.1.1
+  intl: ^0.19.0  # Update intl to be compatible with easy_localization
+  google_mobile_ads: ^2.4.0  # Specify a version for google_mobile_ads
+  easy_localization: ^3.0.0  # Add easy_localization dependency
+  webview_flutter: ^4.9.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+  flutter_launcher_icons: ^0.9.2
+
+flutter_icons:
+  android: true
+  ios: true
+  remove_alpha_ios: true
+  image_path: "assets/icon/app_icon.png"
+
+flutter:
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/fonts/
+    - assets/lang/en-US.json
+    - assets/lang/it-IT.json
+    - assets/lang/br-BR.json
+    - assets/lang/de-DE.json
+    - assets/lang/fr-FR.json
+
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Regular.ttf
+    - family: PoppinsB
+      fonts:
+        - asset: assets/fonts/Poppins-Black.ttf
+    - family: PoppinsBold
+      fonts:
+        - asset: assets/fonts/Poppins-Bold.ttf
+    - family: PoppinsSemi
+      fonts:
+        - asset: assets/fonts/Poppins-SemiBold.ttf
